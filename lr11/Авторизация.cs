@@ -86,14 +86,14 @@ namespace lr11
 
         private void label5_Click(object sender, EventArgs e)
         {
-
+             ВосстановлениеПароля reco = new ВосстановлениеПароля();
+             reco.Show();
+             this.Hide();
         }
 
         /* private void label5_Click(object sender, EventArgs e)
          {
-             ВосстановлениеПароля recover = new ВосстановлениеПароля();
-             recover.Show();
-             this.Hide();
+            
          }*/
     }
 }

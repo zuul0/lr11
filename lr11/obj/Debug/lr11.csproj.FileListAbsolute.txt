@@ -16,3 +16,4 @@ C:\Users\Zukhr\source\repos\lr11\lr11\obj\Debug\lr11.csproj.CopyComplete
 C:\Users\Zukhr\source\repos\lr11\lr11\obj\Debug\lr11.exe
 C:\Users\Zukhr\source\repos\lr11\lr11\obj\Debug\lr11.pdb
 C:\Users\Zukhr\source\repos\lr11\lr11\obj\Debug\lr11.Регистрация.resources
+C:\Users\Zukhr\source\repos\lr11\lr11\obj\Debug\lr11.ВосстановлениеПароля.resources
