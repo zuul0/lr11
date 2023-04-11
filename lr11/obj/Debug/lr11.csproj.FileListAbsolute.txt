@@ -1,0 +1,8 @@
+C:\Users\Zukhr\source\repos\lr11\lr11\obj\Debug\lr11.csproj.AssemblyReference.cache
+C:\Users\Zukhr\source\repos\lr11\lr11\obj\Debug\lr11.csproj.SuggestedBindingRedirects.cache
+C:\Users\Zukhr\source\repos\lr11\lr11\obj\Debug\lr11.Authorizationcs.resources
+C:\Users\Zukhr\source\repos\lr11\lr11\obj\Debug\lr11.Form1.resources
+C:\Users\Zukhr\source\repos\lr11\lr11\obj\Debug\lr11.Properties.Resources.resources
+C:\Users\Zukhr\source\repos\lr11\lr11\obj\Debug\lr11.Registration.resources
+C:\Users\Zukhr\source\repos\lr11\lr11\obj\Debug\lr11.csproj.GenerateResource.cache
+C:\Users\Zukhr\source\repos\lr11\lr11\obj\Debug\lr11.csproj.CoreCompileInputs.cache
