@@ -76,5 +76,24 @@ namespace lr11
                 }
             }
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Регистрация reg = new Регистрация();
+            reg.Show();
+            this.Hide();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        /* private void label5_Click(object sender, EventArgs e)
+         {
+             ВосстановлениеПароля recover = new ВосстановлениеПароля();
+             recover.Show();
+             this.Hide();
+         }*/
     }
 }

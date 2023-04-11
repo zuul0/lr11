@@ -35,6 +35,10 @@ public User(string Login, string Password, string Name, string LastName, string 
         this.Amount = Amount;
         this.Data_vpk = Data_vpk;
     }
+
+        public User(string text1, string v, string text2, string text3, object text4, object text5, string text6, string text7, string text8)
+        {
+        }
     }
     /*
 
