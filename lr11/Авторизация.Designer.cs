@@ -55,7 +55,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label4.Location = new System.Drawing.Point(34, 258);
+            this.label4.Location = new System.Drawing.Point(29, 258);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(118, 17);
             this.label4.TabIndex = 14;
@@ -66,7 +66,7 @@
             // 
             this.buttonLogIn.BackColor = System.Drawing.Color.White;
             this.buttonLogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.buttonLogIn.Location = new System.Drawing.Point(37, 208);
+            this.buttonLogIn.Location = new System.Drawing.Point(31, 199);
             this.buttonLogIn.Name = "buttonLogIn";
             this.buttonLogIn.Size = new System.Drawing.Size(262, 27);
             this.buttonLogIn.TabIndex = 13;
@@ -77,7 +77,7 @@
             // textBoxPass
             // 
             this.textBoxPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBoxPass.Location = new System.Drawing.Point(36, 166);
+            this.textBoxPass.Location = new System.Drawing.Point(31, 154);
             this.textBoxPass.Name = "textBoxPass";
             this.textBoxPass.Size = new System.Drawing.Size(265, 26);
             this.textBoxPass.TabIndex = 12;
@@ -87,7 +87,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label3.Location = new System.Drawing.Point(38, 143);
+            this.label3.Location = new System.Drawing.Point(33, 131);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(71, 20);
             this.label3.TabIndex = 11;
@@ -96,7 +96,7 @@
             // textBoxLog
             // 
             this.textBoxLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBoxLog.Location = new System.Drawing.Point(37, 114);
+            this.textBoxLog.Location = new System.Drawing.Point(32, 102);
             this.textBoxLog.Name = "textBoxLog";
             this.textBoxLog.Size = new System.Drawing.Size(262, 26);
             this.textBoxLog.TabIndex = 10;
@@ -105,7 +105,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label2.Location = new System.Drawing.Point(38, 89);
+            this.label2.Location = new System.Drawing.Point(33, 77);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 20);
             this.label2.TabIndex = 9;
@@ -114,10 +114,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label1.Location = new System.Drawing.Point(36, 32);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(60, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(262, 26);
+            this.label1.Size = new System.Drawing.Size(230, 24);
             this.label1.TabIndex = 8;
             this.label1.Text = "Войти в личный кабинет";
             // 
@@ -125,7 +125,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(871, 595);
+            this.ClientSize = new System.Drawing.Size(341, 312);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.buttonLogIn);

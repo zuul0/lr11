@@ -37,9 +37,9 @@
             // 
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(27, 128);
+            this.button1.Location = new System.Drawing.Point(48, 129);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(159, 34);
+            this.button1.Size = new System.Drawing.Size(159, 27);
             this.button1.TabIndex = 6;
             this.button1.Text = "Выслать пароль";
             this.button1.UseVisualStyleBackColor = false;
@@ -48,25 +48,26 @@
             // textBoxEmail
             // 
             this.textBoxEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxEmail.Location = new System.Drawing.Point(15, 86);
+            this.textBoxEmail.Location = new System.Drawing.Point(30, 81);
             this.textBoxEmail.Name = "textBoxEmail";
-            this.textBoxEmail.Size = new System.Drawing.Size(183, 26);
+            this.textBoxEmail.Size = new System.Drawing.Size(193, 26);
             this.textBoxEmail.TabIndex = 5;
             // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(46, 45);
+            this.label2.Location = new System.Drawing.Point(12, 34);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 26);
+            this.label2.Size = new System.Drawing.Size(245, 44);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Укажите почту для восстановления пароля";
+            this.label2.Text = "Укажите почту \r\nдля восстановления пароля";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ВосстановлениеПароля
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(266, 200);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBoxEmail);
             this.Controls.Add(this.label2);
