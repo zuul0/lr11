@@ -36,18 +36,20 @@
             this.textBoxLog = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBoxNapr = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBoxPhone = new System.Windows.Forms.TextBox();
+            this.textBoxSur = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBoxName = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBoxAmount = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxData = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.textBoxBirthday = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -126,13 +128,13 @@
             this.label10.TabIndex = 27;
             this.label10.Text = "Phone:";
             // 
-            // textBox8
+            // textBoxNapr
             // 
-            this.textBox8.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox8.Location = new System.Drawing.Point(287, 168);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(223, 27);
-            this.textBox8.TabIndex = 26;
+            this.textBoxNapr.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxNapr.Location = new System.Drawing.Point(287, 168);
+            this.textBoxNapr.Name = "textBoxNapr";
+            this.textBoxNapr.Size = new System.Drawing.Size(223, 27);
+            this.textBoxNapr.TabIndex = 26;
             // 
             // label9
             // 
@@ -145,21 +147,21 @@
             this.label9.TabIndex = 25;
             this.label9.Text = "Направление творчества:";
             // 
-            // textBox9
+            // textBoxPhone
             // 
-            this.textBox9.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox9.Location = new System.Drawing.Point(287, 115);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(223, 27);
-            this.textBox9.TabIndex = 24;
+            this.textBoxPhone.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxPhone.Location = new System.Drawing.Point(287, 115);
+            this.textBoxPhone.Name = "textBoxPhone";
+            this.textBoxPhone.Size = new System.Drawing.Size(223, 27);
+            this.textBoxPhone.TabIndex = 24;
             // 
-            // textBox3
+            // textBoxSur
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3.Location = new System.Drawing.Point(16, 273);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(167, 27);
-            this.textBox3.TabIndex = 23;
+            this.textBoxSur.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxSur.Location = new System.Drawing.Point(16, 273);
+            this.textBoxSur.Name = "textBoxSur";
+            this.textBoxSur.Size = new System.Drawing.Size(167, 27);
+            this.textBoxSur.TabIndex = 23;
             // 
             // label1
             // 
@@ -171,13 +173,13 @@
             this.label1.TabIndex = 22;
             this.label1.Text = "Фамилия:";
             // 
-            // textBox4
+            // textBoxName
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox4.Location = new System.Drawing.Point(16, 217);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(167, 27);
-            this.textBox4.TabIndex = 21;
+            this.textBoxName.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxName.Location = new System.Drawing.Point(16, 217);
+            this.textBoxName.Name = "textBoxName";
+            this.textBoxName.Size = new System.Drawing.Size(167, 27);
+            this.textBoxName.TabIndex = 21;
             // 
             // label5
             // 
@@ -189,13 +191,13 @@
             this.label5.TabIndex = 20;
             this.label5.Text = "Имя:";
             // 
-            // textBox7
+            // textBoxAmount
             // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox7.Location = new System.Drawing.Point(287, 221);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(222, 27);
-            this.textBox7.TabIndex = 29;
+            this.textBoxAmount.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxAmount.Location = new System.Drawing.Point(287, 221);
+            this.textBoxAmount.Name = "textBoxAmount";
+            this.textBoxAmount.Size = new System.Drawing.Size(222, 27);
+            this.textBoxAmount.TabIndex = 29;
             // 
             // label8
             // 
@@ -207,13 +209,13 @@
             this.label8.TabIndex = 28;
             this.label8.Text = "Дата первого издания:";
             // 
-            // textBox1
+            // textBoxData
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(287, 274);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(222, 27);
-            this.textBox1.TabIndex = 30;
+            this.textBoxData.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxData.Location = new System.Drawing.Point(287, 274);
+            this.textBoxData.Name = "textBoxData";
+            this.textBoxData.Size = new System.Drawing.Size(222, 27);
+            this.textBoxData.TabIndex = 30;
             // 
             // label6
             // 
@@ -235,7 +237,25 @@
             this.button2.TabIndex = 32;
             this.button2.Text = "Войти";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+           
+            // 
+            // textBoxBirthday
+            // 
+            this.textBoxBirthday.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxBirthday.Location = new System.Drawing.Point(287, 62);
+            this.textBoxBirthday.Name = "textBoxBirthday";
+            this.textBoxBirthday.Size = new System.Drawing.Size(223, 27);
+            this.textBoxBirthday.TabIndex = 33;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Location = new System.Drawing.Point(291, 39);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(128, 20);
+            this.label7.TabIndex = 34;
+            this.label7.Text = "Дата рождения:";
             // 
             // Регистрация
             // 
@@ -243,18 +263,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaShell;
             this.ClientSize = new System.Drawing.Size(523, 441);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.textBoxBirthday);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBoxData);
+            this.Controls.Add(this.textBoxAmount);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.textBoxNapr);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBoxPhone);
+            this.Controls.Add(this.textBoxSur);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBoxName);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBoxEmail);
@@ -265,7 +287,6 @@
             this.Controls.Add(this.label2);
             this.Name = "Регистрация";
             this.Text = "Регистрация";
-            this.Load += new System.EventHandler(this.Регистрация_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -281,17 +302,19 @@
         private System.Windows.Forms.TextBox textBoxLog;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBoxNapr;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBoxPhone;
+        private System.Windows.Forms.TextBox textBoxSur;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxName;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBoxAmount;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxData;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBoxBirthday;
+        private System.Windows.Forms.Label label7;
     }
 }

@@ -16,5 +16,17 @@ namespace lr11
         {
             InitializeComponent();
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Авторизация auto = new Авторизация();
+            auto.Show();
+            this.Hide();
+        }
     }
 }

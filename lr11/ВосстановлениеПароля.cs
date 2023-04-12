@@ -39,12 +39,14 @@ namespace lr11
         {
             try
             {
-                MailAddress from = new MailAddress("z.davl@yandex.ru", "dzuu");
+                MailAddress from = new MailAddress("dzuu_n@mail.ru", "dzuu");
                 MailAddress to = new MailAddress(textBoxEmail.Text);
                 MailMessage m = new MailMessage(from, to);
                 m.Subject = "Тест";
                 using (UserContext db = new UserContext())
                 {
+                   // var user1 = db.Users.Where(x=> x.Email == textBoxEmail.Text).FirstOrDefault();
+                    //if (user1 != null) { MessageBox.Show("Test");}
                     foreach (User user in db.Users)
                     {
                         if (textBoxEmail.Text == user.Email)
@@ -55,10 +57,11 @@ namespace lr11
                             MessageBox.Show("Пароль отправлен на почту: " + newPasword);
                         }
                     }
+                    db.SaveChanges();
                 }
                 m.IsBodyHtml = true;
                 SmtpClient smtp = new SmtpClient("smtp.mail.ru", 587);
-                smtp.Credentials = new NetworkCredential("z.davl@yandex.ru", "hkDMFks9PX");
+                smtp.Credentials = new NetworkCredential("dzuu_n@mail.ru", "hRLhBgwzZ3Yu7enTeVHh");
                 smtp.EnableSsl = true;
                 smtp.Send(m);
             }
@@ -68,17 +71,28 @@ namespace lr11
             }
            
         }
-
-        private string GeneratePass()
+        private void button2_Click(object sender, EventArgs e)
         {
- string Passw = "";
+          
+
+        }
+            private string GeneratePass()
+        {
+            string Passw = "";
             char[] arr = { '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'A', 'B', 'C', 'D', 'E', 'F', 'd', 'c', 'e', 'f', '?' };
-        Random rnd = new Random();
+            Random rnd = new Random();
             for (int i = 0; i < 10; i++)
             {
                 Passw = Passw + arr[rnd.Next(arr.Length)].ToString();
             }
             return Passw;
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Авторизация auto = new Авторизация();
+            auto.Show();
+            this.Hide();
         }
     }
 }

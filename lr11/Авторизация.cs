@@ -70,9 +70,10 @@ namespace lr11
                             userForm.Show();
                             break;
                         }
-                    }
+                       
+                    } 
                     
-                        MessageBox.Show("Логин или пароль указан неверно!");
+                       
                 }
             }
         }

@@ -7,9 +7,6 @@ using System.Threading.Tasks;
 
 namespace lr11
 {
-
-  
-        
 public class User
     {
         public int Id { get; set; }
@@ -32,7 +29,7 @@ public class User
             this.Password = Password;
             this.Name = Name;
             this.LastName = LastName;
-            this.Birthday = LastName;
+            this.Birthday = Birthday;
             this.Email = Email;
             this.Phone = Phone;
             this.Napravleniye = Napravleniye;

@@ -11,9 +11,6 @@ namespace lr11
     {
         public UserContext() : base("DbConnection") { }
         public DbSet<User> Users { get; set; }
-        static UserContext()
-        {
-            Database.SetInitializer<UserContext>(new DropCreateDatabaseAlways<UserContext>());
-        }
+
     }
 }

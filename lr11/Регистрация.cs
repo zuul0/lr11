@@ -1,4 +1,5 @@
-﻿using System;
+﻿using lr11;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -31,27 +32,63 @@ namespace lr11
             return hash;
         }
 
+     
+            
+
         private void button1_Click(object sender, EventArgs e)
         {
             using (UserContext db = new UserContext())
             {
-                User user = new User(textBoxLog.Text, this.GetHashString(textBoxPass.Text), textBox4.Text, textBox3.Text, textBoxEmail.Text, textBox9.Text, textBox8.Text, textBox7.Text, textBox1.Text, textBox1.Text);
-                db.Users.Add(user);
-                db.SaveChanges();
-                MessageBox.Show("Регистрация успешна!");
-            }
-        }
+                User user1 = new User(textBoxLog.Text, this.GetHashString(textBoxPass.Text), textBoxName.Text, textBoxSur.Text, textBoxBirthday.Text, textBoxEmail.Text, textBoxPhone.Text, textBoxNapr.Text, textBoxAmount.Text, textBoxData.Text);
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Авторизация auto = new Авторизация();
+                if (db.Users.Count() > 0)
+                {
+                    foreach (User user in db.Users)
+                    {
+                        if ( user1.Email != user.Email)
+                        {
+                            db.Users.Add(user1);
+                           
+                            MessageBox.Show("Аккаунт " + textBoxLog.Text + " успешно добавлен");                  
+
+                }
+                        else
+                        {
+                            MessageBox.Show("Пользователь с таким логином или email уже существует");
+                            textBoxEmail.Clear();
+                           
+                            continue;
+                        }
+                    }  Авторизация auto = new Авторизация();
+                    this.Hide();
+                    auto.Show();
+                    db.SaveChanges();
+            }
+               
+                
+            }  
+                
+
+                    /* using (UserContext db = new UserContext())
+                     {
+                         User user = new User(textBoxLog.Text, this.GetHashString(textBoxPass.Text), textBoxName.Text, textBoxSur.Text, textBoxBirthday.Text,  textBoxEmail.Text, textBoxPhone.Text, textBoxNapr.Text, textBoxAmount.Text, textBoxData.Text);
+                         db.Users.Add(user);
+                         db.SaveChanges();
+                         MessageBox.Show("Регистрация успешна!");
+                     
+ Авторизация auto = new Авторизация();
             auto.Show();
             this.Hide();
-        }
+                }
 
+    
         private void Регистрация_Load(object sender, EventArgs e)
         {
 
+        }}*/
+                }
+            }
         }
-    }
-}
+
+        
+ 
